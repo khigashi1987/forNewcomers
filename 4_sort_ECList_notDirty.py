@@ -4,6 +4,9 @@
 # Author:   HIGASHI Koichi
 # Created:  2014-03-14
 #
+
+# 4のコード、矢野くんに怒られたので改変
+
 ECs = []
 for line in open('./enzyme_randomized.list'):
     EC = dict.fromkeys(['numbers', 'line'])
